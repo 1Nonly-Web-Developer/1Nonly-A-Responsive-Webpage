@@ -1,0 +1,31 @@
+/* Here We Styling Ressponsive  */
+    /* @ media querries  */
+
+        /* This is for Smartphones and Mobiles */
+@media (min-width: 481px) and (max-width: 767px) {
+    .head{
+        flex-direction: column;
+    }
+
+    .navigation-bar ul li{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;   
+        padding: 0px 15px;
+    }
+}
+
+        /* This is for Tablets and Ipads */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .content-container-002{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .content-container-002 img{
+        padding: 8px;
+        height: 500px;
+        width: 500px;
+    }
+}
