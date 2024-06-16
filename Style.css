@@ -161,7 +161,7 @@ span {
 }
 
 .input-group input:focus~label,
-.input-group input:valid~label{
+.input-group input:valid~label {
     top: 0;
     font-size: 14px;
     padding: 4px;
@@ -171,7 +171,7 @@ span {
     color: white;
 }
 
-.btns{
+.btns {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -192,4 +192,39 @@ button {
 
 .reset {
     width: 160px;
+}
+
+/* @ media querries  */
+
+/* This is for Smartphones and Mobiles */
+@media (min-width: 320px) and (max-width: 425px) {
+    .head {
+        flex-direction: column;
+    }
+
+    .navigation-bar ul li {
+        flex-direction: column;
+        margin: auto;
+        padding: 0px 15px;
+    }
+
+    .navigation-bar li a {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+/* This is for Tablets and Ipads */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .content-container-002 {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .content-container-002 img {
+        padding: 8px;
+        height: 500px;
+        width: 500px;
+    }
 }
