@@ -2,16 +2,20 @@
     /* @ media querries  */
 
         /* This is for Smartphones and Mobiles */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .head{
         flex-direction: column;
     }
 
     .navigation-bar ul li{
         flex-direction: column;
-        text-align: center;
         margin: auto;   
         padding: 0px 15px;
+    }
+
+    .navigation-bar li a{
+        text-align: center;
+        margin: auto;
     }
 }
 
